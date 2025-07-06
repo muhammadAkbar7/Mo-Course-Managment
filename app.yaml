@@ -5,6 +5,7 @@ env_variables:
   CLIENT_SECRET: "${CLIENT_SECRET}"
   DOMAIN: "${DOMAIN}"
   GCLOUD_STORAGE_BUCKET: "${GCLOUD_STORAGE_BUCKET}"
+  APP.SECRET_KEY: "${FLASK_SECRET_KEY}"
 
 handlers:
 - url: /.*
